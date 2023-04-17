@@ -1,0 +1,27 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.table-fixed tbody {
+    height: 300px;
+    overflow-y: auto;
+    width: 90%;
+}
+
+/* .table-fixed tbody,
+.table-fixed tr,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+
+} */
+
+

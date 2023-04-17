@@ -1,0 +1,56 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.main .featured { padding-bottom: 44px; padding-top: 16px;  }
+.main .featured .entry { width: 171px; height: 88px; float: left; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -o-border-radius: 8px; position: relative; 
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5) ; -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5) ; -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5) ; -o-box-shadow: 1px 1px 3px rgba(0,0,0,0.5) ; 
+
+}
+.main .featured .entry img { width: 171px; height: 88px; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -o-border-radius: 8px; }
+.main .featured .entry span { display: none; position: absolute; bottom: 0; left: 0; background: url(images/entry-cnt.png) repeat 0 0; width: 156px;  padding: 7px 0 7px 15px; 
+    border-radius: 0px 0px 7px 7px; -moz-border-radius: 0px 0px 7px 7px; -webkit-border-radius: 0px 0px 7px 7px; -o-border-radius: 0px 0px 7px 7px; 
+    color: #fff; 
+}
+
+.main .featured .entry em { display: none; background: url(images/entry-plus.png) no-repeat 0 0; width: 23px; height: 22px; position: absolute; top: 0; right: 0;  }
+.main .featured .entry + .entry { margin-left: 22px; }
+ 
+.main .featured .entry strong { display: none; background: url(images/entry-shadow-b.png) no-repeat 0 bottom; width: 174px; height: 10px; position: absolute; bottom: -7px; left: 0;  }
+.main .featured .entry:hover strong { display: block; }
+.main .featured .entry a:hover span { display: block; }
+.main .featured .entry a:hover em { display: block; }
+
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+
